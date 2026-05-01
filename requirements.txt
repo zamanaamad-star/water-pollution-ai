@@ -23,8 +23,8 @@ scipy==1.13.1
 six==1.17.0
 sympy==1.14.0
 threadpoolctl==3.6.0
-torch==2.8.0
-torchvision==0.23.0
+torch
+torchvision
 tqdm==4.67.3
 typing_extensions==4.15.0
 tzdata==2026.1
