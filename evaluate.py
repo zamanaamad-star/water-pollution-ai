@@ -73,7 +73,8 @@ def main():
     disp.plot(xticks_rotation=45)
     plt.tight_layout()
     plt.savefig("artifacts/confusion_matrix.png", dpi=200)
-    plt.show()
+    plt.savefig("artifacts/confusion_matrix.png")
+print("Confusion matrix saved to artifacts/confusion_matrix.png")
 
 
 if __name__ == "__main__":
